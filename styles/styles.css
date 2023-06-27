@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 110px;
+  background: #18C29C;
+  position: relative;
+  transition: 0.3s ease-in;
+}
+.sidebar .content {
+  padding: 2rem;
+}
+.sidebar .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar .header > img {
+  display: none;
+}
+.sidebar .header > a {
+  text-decoration: none;
+  color: #084236;
+  font-size: 1.4rem;
+  transition: 0.5s;
+}
+.sidebar .header > a:hover {
+  opacity: 0.7;
+}
+.sidebar .menu > ul > li {
+  list-style: none;
+  margin-top: 2rem;
+  padding: 1rem;
+  transition: 0.2s;
+}
+.sidebar .menu > ul > li > a {
+  text-decoration: none;
+  color: #084236;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+.sidebar .menu > ul > li > a > i {
+  margin-right: 1rem;
+}
+.sidebar .menu > ul > li > a .noneText {
+  display: none;
+}
+.sidebar .menu > ul > li:hover {
+  background: #8ED7C6;
+  border-radius: 1rem;
+}
+.sidebar .logout {
+  background: #8ED7C6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1.3rem;
+  width: 100%;
+}
+.sidebar .logout > .user {
+  display: none;
+  align-items: center;
+}
+.sidebar .logout > .user > img {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+.sidebar .logout > .user > .text {
+  color: #084236;
+}
+.sidebar .logout > .user > .text > h1 {
+  font-weight: 300;
+}
+.sidebar .logout > .user > .text > p {
+  font-weight: 200;
+}
+.sidebar .logout > .user-logout > a {
+  font-size: 1.5rem;
+  color: #084236;
+  transition: 0.5s;
+}
+.sidebar .logout > .user-logout > a:hover {
+  opacity: 0.5;
+}
+
+.toggled {
+  width: 25%;
+}
+
+/*# sourceMappingURL=styles.css.map */
